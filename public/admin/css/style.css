@@ -1,0 +1,108 @@
+:root {
+  --primaryColor: #7366ff;
+  --secondaryColor: #ff3364;
+  --blueColor: #17bcff;
+  --orangeColor: #ffaa05;
+  --greenColor: #54ba4a;
+
+  /* background color */
+  --primaryBGColor: rgba(115, 102, 255, 0.1);
+  --secondaryBGColor: rgba(255, 51, 100, 0.08);
+
+  /* text color */
+  --text00: #2f2f3b;
+  --text100: #1a3353;
+  --text200: #52526c;
+  --text300: rgba(82, 82, 108, 0.8);
+  --text400: rgba(47, 47, 59, 0.6);
+  --text500: #455560;
+  /* font family */
+  --fntRoboto: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: #f7f8f9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0.5rem;
+}
+
+/* set all icon color */
+i {
+  color: var(--text300);
+}
+
+/* text color class */
+.text00 {
+  color: var(--text00) !important;
+}
+.text100 {
+  color: var(--text100) !important;
+}
+.text200 {
+  color: var(--text200) !important;
+}
+.text300 {
+  color: var(--text300) !important;
+}
+.text400 {
+  color: var(--text400) !important;
+}
+.text500 {
+  color: var(--text500) !important;
+}
+.text600 {
+  color: rgba(114, 132, 154, 0.9) !important;
+}
+
+/* text size  */
+.textS1 {
+  font-size: 14px !important;
+}
+
+/* website layout - Max width  */
+.maxW {
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* horizontal line */
+.hrBrack {
+  height: 1px;
+  background: black;
+  opacity: 10%;
+  width: 95%;
+  margin: 1.5rem auto 1rem;
+  border-radius: 100px;
+}
+
+/* navbar */
+.navbar ,.offcanvas-header{
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 3px 3px -2px rgba(51, 48, 60, 0.03),
+    0px 3px 4px rgba(51, 48, 60, 0.02), 0px 1px 8px rgba(51, 48, 60, 0.02);
+  border-radius: 6px;
+}
+
+.navbar-toggler:focus{
+  box-shadow:none
+}
+

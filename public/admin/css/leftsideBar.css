@@ -1,0 +1,88 @@
+/* left side bar */
+.leftSide {
+    width: 20% !important;
+    background: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 21px rgba(89, 102, 122, 0.1);
+  }
+  
+  .sideBarTitle {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #52526c;
+    text-transform: uppercase;
+  }
+  
+  .generalDropdown {
+    height: 46px;
+    cursor: pointer;
+  }
+  .generalDropdown:hover {
+    background: #f1f0ff;
+  }
+  
+  .sideBarItems {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: var(--text300);
+  }
+  .generalDropdown:hover .sideBarItems {
+    color: #7366ff;
+  }
+  .generalDropdown:hover .fa-chevron-down {
+    color: #7366ff;
+  }
+  .generalDropdown:hover .fa-house {
+    color: #7366ff;
+  }
+  .generalNum {
+    color: var(--primaryColor);
+    font-family: var(--fntRoboto);
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: rgba(115, 102, 255, 0.1);
+  }
+  .lavel {
+    color: var(--secondaryColor);
+    font-family: var(--fntRoboto);
+    font-weight: 600;
+    font-size: 0.8rem;
+    background: var(--secondaryBGColor);
+  }
+  
+  #sidebarManu {
+    border-left: 2px rgba(82, 82, 108, 0.4) solid;
+  }
+  #sidebarManu p {
+    margin-left: -8.5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.84px;
+    text-transform: capitalize;
+    color: rgba(47, 47, 59, 0.6);
+    cursor: pointer;
+    padding: 2px;
+  }
+  #sidebarManu p:hover i {
+    color: var(--primaryColor);
+  }
+  #sidebarManu p:hover {
+    color: var(--primaryColor);
+    background: var(--primaryBGColor);
+  }
+  
+  #sidebarManu p i {
+    color: rgba(82, 82, 108, 0.8);
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .activeItem {
+    color: var(--primaryColor) !important;
+  }

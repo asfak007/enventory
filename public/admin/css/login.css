@@ -1,0 +1,11 @@
+/* login page css */
+
+.loginBTN {
+  background: var(--primaryColor);
+  color: white;
+}
+.loginBTN:hover {
+  background: white;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+}
